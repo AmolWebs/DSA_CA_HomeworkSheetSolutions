@@ -79,11 +79,170 @@ int main()
 
 
 
-Problem no. 3 - Take a number in input (ex n) and print the corresponding month to it. Ex: for n=1, print january, n=2, print feburary like this you need to give output.
+Problem no. 3 - Take a number in input (ex n) and print the corresponding month to it.
+Ex: for n=1, print january, n=2, print feburary like this you need to give output.
 It is given that n will be greater than 0 and less than 13.
 
 code starts from here : 
 
 
 
+#include<iostream>
+using namespace std;
 
+int main()
+{
+    int n;
+    cout<<"Enter number : ";
+    cin>>n;
+
+    if(n>12)
+    {
+        cout<<"Invalid"<<endl;
+    }
+    else if(n<1)
+    {
+        cout<<"Invalid"<<endl;
+    }
+    else if(n==1)
+    {
+        cout<<"January"<<endl;
+    }
+    else if(n==2)
+    {
+        cout<<"February"<<endl;
+    }else if(n==3)
+    {
+        cout<<"March"<<endl;
+    }else if(n==4)
+    {
+        cout<<"April"<<endl;
+    }else if(n==5)
+    {
+        cout<<"May"<<endl;
+    }else if(n==6)
+    {
+        cout<<"June"<<endl;
+    }else if(n==7)
+    {
+        cout<<"July"<<endl;
+    }else if(n==8)
+    {
+        cout<<"August"<<endl;
+    }else if(n==9)
+    {
+        cout<<"September"<<endl;
+    }else if(n==10)
+    {
+        cout<<"October"<<endl;
+    }else if(n==11)
+    {
+        cout<<"November"<<endl;
+    }else if(n==12)
+    {
+        cout<<"December"<<endl;
+    }
+}//end code :)
+
+
+
+Problem no.4 - Ticket Price Calculator: Create a program that asks the user for their age and checks 
+if they qualify for a discounted ticket price (e.g., under 12 and over 65 get discounts), 
+If they are eligible print “YES” else “NO”.
+
+
+code starts from here : 
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  int age;
+  cout<<"Enter your age : ";
+  cin>>age;
+  
+  if (age<=12)
+  {
+    cout<<"Yes";
+  }
+  else if (age>=65)
+  {
+    cout<<"Yes";
+  }
+  else
+  {
+    cout<<"No";
+  }
+}//end code :)
+
+
+
+
+For Loop
+
+Problem no.1 - Print “India will win the World Cup 2023”, 20 times.
+
+
+code starts from here : 
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{   
+    for(int i =1 ; i<=20 ; i=i+1)
+    {
+        cout<<"India will win the World Cup 2023\n";
+    }
+}//code end :)
+
+
+
+
+Problem no.2 - Print all Odd numbers from 1 to n, take n as an input from the user.
+
+code starts from here : 
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"Enter number : ";
+    cin>>n;
+    for(int i=1;i<=n;i=i+2)
+    {
+        cout<<i<<endl;
+    }
+}//code end :)
+
+
+Problem no.3 - Print all numbers from 1 to n, which is divisible by 4. Take n as an input from the user.
+
+
+code starts from here : 
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"Enter number : ";
+    cin>>n;
+
+    for(int i =1;i<=n;i++)
+    {
+        if(i%4==0)
+        {
+            cout<<i<<endl;
+        }
+    }
+
+}//code end :)
+
+//Byy today's task is completed
