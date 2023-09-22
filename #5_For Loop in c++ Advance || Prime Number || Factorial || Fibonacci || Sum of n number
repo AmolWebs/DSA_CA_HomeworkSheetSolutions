@@ -1,1 +1,124 @@
+/*
 
+Day 5/180: For Loop in advance
+Problems: 
+
+Print number from 280 to 250 with the help of for loop.
+Print char from ‘A’ to ‘Z’ with the help of a for loop.
+Print char from ‘Z’ to ‘A’ with the help of a for loop.
+There is an Arithmetic Progression, First number is 220 and Common Difference is 7. So print all the numbers from 220 to 730 which follow AP.
+Print Sum of square of first n natural number.
+Print Sum of cube of first n natural number
+Print n’th Fibonacci number.
+
+
+Add following header commonly before every program-
+
+#include<iostream>
+using namespace std;
+
+*/
+
+// Print number from 280 to 250 with the help of for loop , code is below .
+
+int main()
+{
+    for(int n = 280;n>=250;n=n-1)
+    {
+        cout<<n<<"\n";
+    }
+}//end code
+
+
+// Print char from ‘A’ to ‘Z’ with the help of a for loop.
+
+int main()
+{
+    for(char i = 'A';i<='Z';i=i+1)
+    {
+        cout<<i<<"\n";
+    }
+}//end code
+
+
+// Print char from ‘Z’ to ‘A’ with the help of a for loop.
+
+
+int main()
+{
+    for(char i = 'Z';i>='A';i=i-1)
+    {
+        cout<<i<<"\n";
+    }
+}//code end
+
+//There is an Arithmetic Progression, First number is 220 and Common Difference is 7. So print all the numbers from 220 to 730 which follow AP.
+
+int main()
+{
+    for(int i =220;i<=730;i=i+7)
+    {
+        cout<<i<<"\n";
+    }
+}
+
+
+
+// Print Sum of square of first n natural number.
+
+
+
+int main()
+{
+    int n;
+    long long int sum = 0;
+    cout<<"Enter number : ";
+    cin>>n;
+    for(int i=1;i<=n;i=i+1)
+    {
+        sum = sum+(i*i);
+        
+    }
+    cout<<"Sum of square of first "<<n<<" natural number is : "<<sum;
+    
+}//end code
+
+
+// Print Sum of cube of first n natural number
+
+
+int main()
+{
+    int n;
+    long long int sum = 0;
+    cout<<"Enter number : ";
+    cin>>n;
+    for(int i=1;i<=n;i=i+1)
+    {
+        sum = sum+(i*i*i);
+        
+    }
+    cout<<"Sum of cube of first "<<n<<" natural number is : "<<sum;
+    
+}//end code
+
+
+// Print n’th Fibonacci number.
+
+
+int main()
+{
+    int n;
+    cout<<"Enter number : ";
+    cin>>n;
+    int last=0;
+    int pre = 1;
+    int curr = last + pre;
+    for(int i = 1;i<=n-3;i++)
+    {
+        last=pre;
+        pre=curr;
+        curr=last+pre;
+    }
+    cout<<curr;
+}//code end :)
