@@ -27,7 +27,7 @@ int main()
     {
         cout<<n<<"\n";
     }
-}//end code
+}// code end
 
 
 // Print char from ‘A’ to ‘Z’ with the help of a for loop.
@@ -38,7 +38,8 @@ int main()
     {
         cout<<i<<"\n";
     }
-}//end code
+}// code end
+
 
 
 // Print char from ‘Z’ to ‘A’ with the help of a for loop.
@@ -50,7 +51,8 @@ int main()
     {
         cout<<i<<"\n";
     }
-}//code end
+}// code end
+
 
 //There is an Arithmetic Progression, First number is 220 and Common Difference is 7. So print all the numbers from 220 to 730 which follow AP.
 
@@ -60,7 +62,8 @@ int main()
     {
         cout<<i<<"\n";
     }
-}
+}// code end
+
 
 
 
@@ -81,7 +84,7 @@ int main()
     }
     cout<<"Sum of square of first "<<n<<" natural number is : "<<sum;
     
-}//end code
+}// code end
 
 
 // Print Sum of cube of first n natural number
@@ -100,7 +103,7 @@ int main()
     }
     cout<<"Sum of cube of first "<<n<<" natural number is : "<<sum;
     
-}//end code
+}// code end
 
 
 // Print n’th Fibonacci number.
