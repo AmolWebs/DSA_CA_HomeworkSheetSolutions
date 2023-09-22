@@ -1,4 +1,4 @@
-/*
+
 
 Day 5/180: For Loop in advance
 Problems: 
@@ -17,7 +17,7 @@ Add following header commonly before every program-
 #include<iostream>
 using namespace std;
 
-*/
+
 
 // Print number from 280 to 250 with the help of for loop , code is below .
 
