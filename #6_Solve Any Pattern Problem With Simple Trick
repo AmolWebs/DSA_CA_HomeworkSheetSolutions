@@ -1,0 +1,25 @@
+Fourth Pattern : 
+F G H I J K  
+F G H I J K
+F G H I J K
+F G H I J K
+F G H I J K
+
+
+#include<iostream>
+using namespace std;
+// F = 70
+int main()
+{
+    int n,row,col;
+    cin>>n;
+    for(row = 1;row<=n;row++)
+    {
+        for(col = 1;col<=n+1;col++)
+        {
+            char b = 69+col;
+            cout<<b<<" ";
+        }
+        cout<<endl;
+    }
+}
